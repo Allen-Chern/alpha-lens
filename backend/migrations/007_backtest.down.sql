@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS backtest_trades CASCADE;
+DROP TABLE IF EXISTS backtest_results CASCADE;
+DROP TABLE IF EXISTS backtest_runs CASCADE;

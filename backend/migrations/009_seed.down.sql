@@ -1,0 +1,10 @@
+DELETE FROM portfolios;
+DELETE FROM score_breakdown;
+DELETE FROM stock_scores;
+DELETE FROM reports;
+DELETE FROM stock_themes;
+DELETE FROM themes;
+DELETE FROM institutional_flows;
+DELETE FROM fundamentals;
+DELETE FROM stock_prices;
+DELETE FROM stocks;

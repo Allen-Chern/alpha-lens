@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS fundamentals CASCADE;
+DROP TABLE IF EXISTS stock_prices CASCADE;

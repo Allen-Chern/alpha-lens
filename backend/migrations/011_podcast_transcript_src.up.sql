@@ -1,0 +1,4 @@
+ALTER TABLE podcast_episodes
+  ADD COLUMN IF NOT EXISTS video_id       TEXT NOT NULL DEFAULT '',
+  ADD COLUMN IF NOT EXISTS transcript_url TEXT NOT NULL DEFAULT '',
+  ADD COLUMN IF NOT EXISTS transcript_src TEXT NOT NULL DEFAULT 'show_notes';
